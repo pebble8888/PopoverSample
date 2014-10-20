@@ -1958,10 +1958,6 @@ static WYPopoverTheme *defaultTheme_ = nil;
         
         if (strongSelf)
         {
-            if ([strongSelf->viewController isKindOfClass:[UINavigationController class]] == NO)
-            {
-                [strongSelf->viewController viewDidAppear:YES];
-            }
             
             if (isObserverAdded == NO)
             {
@@ -2014,8 +2010,6 @@ static WYPopoverTheme *defaultTheme_ = nil;
             backgroundView.alpha = 0;
         }
         
-        [viewController viewWillAppear:YES];
-        
         CGAffineTransform endTransform = backgroundView.transform;
         
         if ((options & WYPopoverAnimationOptionScale) == WYPopoverAnimationOptionScale)
@@ -2041,7 +2035,6 @@ static WYPopoverTheme *defaultTheme_ = nil;
     else
     {
         adjustTintDimmed();
-        [viewController viewWillAppear:NO];
         completionBlock(NO);
     }
     
@@ -2640,10 +2633,6 @@ static WYPopoverTheme *defaultTheme_ = nil;
             [strongSelf->overlayView removeFromSuperview];
             strongSelf->overlayView = nil;
             
-            if ([strongSelf->viewController isKindOfClass:[UINavigationController class]] == NO)
-            {
-                [strongSelf->viewController viewDidDisappear:aAnimated];
-            }
         }
         
         if (completion)
@@ -2676,11 +2665,6 @@ static WYPopoverTheme *defaultTheme_ = nil;
         [[NSNotificationCenter defaultCenter] removeObserver:self
                                                         name:UIKeyboardWillHideNotification
                                                       object:nil];
-    }
-    
-    if ([viewController isKindOfClass:[UINavigationController class]] == NO)
-    {
-        [viewController viewWillDisappear:aAnimated];
     }
     
     @try {
