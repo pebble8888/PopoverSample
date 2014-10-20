@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19EB8CD419F49ADD0007B995 /* LoremViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EB8CD319F49ADD0007B995 /* LoremViewController.m */; };
+		19EB8CDA19F4A4820007B995 /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EB8CD919F4A4820007B995 /* WYPopoverController.m */; };
 		A220D1CE19F12E1900167F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A220D1CD19F12E1900167F7A /* main.m */; };
 		A220D1D119F12E1900167F7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A220D1D019F12E1900167F7A /* AppDelegate.m */; };
 		A220D1D419F12E1900167F7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A220D1D319F12E1900167F7A /* ViewController.m */; };
 		A220D1D719F12E1900167F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A220D1D519F12E1900167F7A /* Main.storyboard */; };
 		A220D1D919F12E1900167F7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A220D1D819F12E1900167F7A /* Images.xcassets */; };
 		A220D1DC19F12E1900167F7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A220D1DA19F12E1900167F7A /* LaunchScreen.xib */; };
-		A220D1E819F12E1900167F7A /* PopoverTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A220D1E719F12E1900167F7A /* PopoverTestTests.m */; };
 		A220D1F319F1304000167F7A /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A220D1F219F1304000167F7A /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A220D1E219F12E1900167F7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A220D1C019F12E1900167F7A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A220D1C719F12E1900167F7A;
-			remoteInfo = PopoverTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		19EB8CD219F49ADD0007B995 /* LoremViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoremViewController.h; sourceTree = "<group>"; };
+		19EB8CD319F49ADD0007B995 /* LoremViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoremViewController.m; sourceTree = "<group>"; };
+		19EB8CD819F4A4820007B995 /* WYPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYPopoverController.h; path = WYPopoverController/WYPopoverController/WYPopoverController.h; sourceTree = "<group>"; };
+		19EB8CD919F4A4820007B995 /* WYPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYPopoverController.m; path = WYPopoverController/WYPopoverController/WYPopoverController.m; sourceTree = "<group>"; };
 		A220D1C819F12E1900167F7A /* PopoverTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A220D1CC19F12E1900167F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A220D1CD19F12E1900167F7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,37 +33,22 @@
 		A220D1D619F12E1900167F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A220D1D819F12E1900167F7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A220D1DB19F12E1900167F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A220D1E119F12E1900167F7A /* PopoverTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoverTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A220D1E619F12E1900167F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A220D1E719F12E1900167F7A /* PopoverTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverTestTests.m; sourceTree = "<group>"; };
 		A220D1F119F1304000167F7A /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		A220D1F219F1304000167F7A /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A220D1C519F12E1900167F7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A220D1DE19F12E1900167F7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		A220D1BF19F12E1900167F7A = {
 			isa = PBXGroup;
 			children = (
+				19EB8CD819F4A4820007B995 /* WYPopoverController.h */,
+				19EB8CD919F4A4820007B995 /* WYPopoverController.m */,
 				A220D1CA19F12E1900167F7A /* PopoverTest */,
 				A220D1E419F12E1900167F7A /* PopoverTestTests */,
 				A220D1C919F12E1900167F7A /* Products */,
+				B9F94E0225114F69A7654F54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				A220D1C819F12E1900167F7A /* PopoverTest.app */,
-				A220D1E119F12E1900167F7A /* PopoverTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +67,8 @@
 				A220D1D019F12E1900167F7A /* AppDelegate.m */,
 				A220D1D219F12E1900167F7A /* ViewController.h */,
 				A220D1D319F12E1900167F7A /* ViewController.m */,
+				19EB8CD219F49ADD0007B995 /* LoremViewController.h */,
+				19EB8CD319F49ADD0007B995 /* LoremViewController.m */,
 				A220D1D519F12E1900167F7A /* Main.storyboard */,
 				A220D1D819F12E1900167F7A /* Images.xcassets */,
 				A220D1DA19F12E1900167F7A /* LaunchScreen.xib */,
@@ -124,6 +105,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B9F94E0225114F69A7654F54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,7 +120,6 @@
 			buildConfigurationList = A220D1EB19F12E1900167F7A /* Build configuration list for PBXNativeTarget "PopoverTest" */;
 			buildPhases = (
 				A220D1C419F12E1900167F7A /* Sources */,
-				A220D1C519F12E1900167F7A /* Frameworks */,
 				A220D1C619F12E1900167F7A /* Resources */,
 			);
 			buildRules = (
@@ -143,24 +130,6 @@
 			productName = PopoverTest;
 			productReference = A220D1C819F12E1900167F7A /* PopoverTest.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A220D1E019F12E1900167F7A /* PopoverTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A220D1EE19F12E1900167F7A /* Build configuration list for PBXNativeTarget "PopoverTestTests" */;
-			buildPhases = (
-				A220D1DD19F12E1900167F7A /* Sources */,
-				A220D1DE19F12E1900167F7A /* Frameworks */,
-				A220D1DF19F12E1900167F7A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A220D1E319F12E1900167F7A /* PBXTargetDependency */,
-			);
-			name = PopoverTestTests;
-			productName = PopoverTestTests;
-			productReference = A220D1E119F12E1900167F7A /* PopoverTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -173,10 +142,6 @@
 				TargetAttributes = {
 					A220D1C719F12E1900167F7A = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					A220D1E019F12E1900167F7A = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = A220D1C719F12E1900167F7A;
 					};
 				};
 			};
@@ -194,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				A220D1C719F12E1900167F7A /* PopoverTest */,
-				A220D1E019F12E1900167F7A /* PopoverTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,13 +174,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A220D1DF19F12E1900167F7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -227,27 +184,13 @@
 				A220D1D419F12E1900167F7A /* ViewController.m in Sources */,
 				A220D1D119F12E1900167F7A /* AppDelegate.m in Sources */,
 				A220D1F319F1304000167F7A /* InfoViewController.m in Sources */,
+				19EB8CDA19F4A4820007B995 /* WYPopoverController.m in Sources */,
+				19EB8CD419F49ADD0007B995 /* LoremViewController.m in Sources */,
 				A220D1CE19F12E1900167F7A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A220D1DD19F12E1900167F7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A220D1E819F12E1900167F7A /* PopoverTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A220D1E319F12E1900167F7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A220D1C719F12E1900167F7A /* PopoverTest */;
-			targetProxy = A220D1E219F12E1900167F7A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A220D1D519F12E1900167F7A /* Main.storyboard */ = {
@@ -303,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -338,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -367,40 +310,6 @@
 			};
 			name = Release;
 		};
-		A220D1EF19F12E1900167F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PopoverTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopoverTest.app/PopoverTest";
-			};
-			name = Debug;
-		};
-		A220D1F019F12E1900167F7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PopoverTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopoverTest.app/PopoverTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,14 +329,7 @@
 				A220D1ED19F12E1900167F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		A220D1EE19F12E1900167F7A /* Build configuration list for PBXNativeTarget "PopoverTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A220D1EF19F12E1900167F7A /* Debug */,
-				A220D1F019F12E1900167F7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

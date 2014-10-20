@@ -31,6 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="368" y="253"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="bU1-qx-Odo">
@@ -48,7 +49,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4DA-Tz-O7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="777" y="136"/>
+            <point key="canvasLocation" x="1020" y="137"/>
+        </scene>
+        <!--Lorem View Controller-->
+        <scene sceneID="COv-S0-V17">
+            <objects>
+                <viewController storyboardIdentifier="LoremID" id="jfg-08-RsL" customClass="LoremViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TRw-xs-W6H"/>
+                        <viewControllerLayoutGuide type="bottom" id="pNs-Q2-8dD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ujC-qp-b0y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AdG-ai-ej2">
+                                <rect key="frame" x="37" y="168" width="149" height="30"/>
+                                <state key="normal" title="WYPopoverController">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button2Handler:" destination="jfg-08-RsL" eventType="touchUpInside" id="l89-hy-T26"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eu-Zj-ItR">
+                                <rect key="frame" x="25" y="116" width="172" height="32"/>
+                                <state key="normal" title="UIPopoverController">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1Handler:" destination="jfg-08-RsL" eventType="touchUpInside" id="6Ny-5B-5to"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sjC-ul-Cdm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="814"/>
         </scene>
     </scenes>
 </document>
