@@ -865,6 +865,14 @@ static float edgeSizeFromCornerRadius(float cornerRadius) {
 	return [self isPassthroughView:view.superview];
 }
 
+/**
+ * @note This empty method is meaningful.
+ *       If the method is not defined, touch event isn't capture in iOS6.
+ */
+- (void)drawRect:(CGRect)rect
+{
+}
+
 #pragma mark - UIAccessibility
 
 - (void)accessibilityElementDidBecomeFocused {
