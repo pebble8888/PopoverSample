@@ -1,0 +1,13 @@
+# Mac OS Noise.
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Xcode Needless Files
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+**/*.xcodeproj/*
+!**/*.xcodeproj/project.pbxproj
+xcuserdata

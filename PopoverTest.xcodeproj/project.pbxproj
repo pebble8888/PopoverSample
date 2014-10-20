@@ -14,7 +14,6 @@
 		A220D1D419F12E1900167F7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A220D1D319F12E1900167F7A /* ViewController.m */; };
 		A220D1D719F12E1900167F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A220D1D519F12E1900167F7A /* Main.storyboard */; };
 		A220D1D919F12E1900167F7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A220D1D819F12E1900167F7A /* Images.xcassets */; };
-		A220D1DC19F12E1900167F7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A220D1DA19F12E1900167F7A /* LaunchScreen.xib */; };
 		A220D1F319F1304000167F7A /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A220D1F219F1304000167F7A /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -32,9 +31,6 @@
 		A220D1D319F12E1900167F7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A220D1D619F12E1900167F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A220D1D819F12E1900167F7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A220D1DB19F12E1900167F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A220D1E619F12E1900167F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A220D1E719F12E1900167F7A /* PopoverTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverTestTests.m; sourceTree = "<group>"; };
 		A220D1F119F1304000167F7A /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		A220D1F219F1304000167F7A /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,7 +42,6 @@
 				19EB8CD819F4A4820007B995 /* WYPopoverController.h */,
 				19EB8CD919F4A4820007B995 /* WYPopoverController.m */,
 				A220D1CA19F12E1900167F7A /* PopoverTest */,
-				A220D1E419F12E1900167F7A /* PopoverTestTests */,
 				A220D1C919F12E1900167F7A /* Products */,
 				B9F94E0225114F69A7654F54 /* Frameworks */,
 			);
@@ -71,7 +66,6 @@
 				19EB8CD319F49ADD0007B995 /* LoremViewController.m */,
 				A220D1D519F12E1900167F7A /* Main.storyboard */,
 				A220D1D819F12E1900167F7A /* Images.xcassets */,
-				A220D1DA19F12E1900167F7A /* LaunchScreen.xib */,
 				A220D1CB19F12E1900167F7A /* Supporting Files */,
 				A220D1F119F1304000167F7A /* InfoViewController.h */,
 				A220D1F219F1304000167F7A /* InfoViewController.m */,
@@ -84,23 +78,6 @@
 			children = (
 				A220D1CC19F12E1900167F7A /* Info.plist */,
 				A220D1CD19F12E1900167F7A /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A220D1E419F12E1900167F7A /* PopoverTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				A220D1E719F12E1900167F7A /* PopoverTestTests.m */,
-				A220D1E519F12E1900167F7A /* Supporting Files */,
-			);
-			path = PopoverTestTests;
-			sourceTree = "<group>";
-		};
-		A220D1E519F12E1900167F7A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A220D1E619F12E1900167F7A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A220D1D719F12E1900167F7A /* Main.storyboard in Resources */,
-				A220D1DC19F12E1900167F7A /* LaunchScreen.xib in Resources */,
 				A220D1D919F12E1900167F7A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,14 +175,6 @@
 				A220D1D619F12E1900167F7A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A220D1DA19F12E1900167F7A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A220D1DB19F12E1900167F7A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -246,7 +214,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -281,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -292,7 +260,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PopoverTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -303,7 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PopoverTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;

@@ -21,15 +21,20 @@
 
 @implementation LoremViewController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+}
+
 - (IBAction)button1Handler:(id)sender
 {
     UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     InfoViewController* vc = [storyboard instantiateViewControllerWithIdentifier:@"InfoVCID"];
-    vc.preferredContentSize = CGSizeMake(200, 300);
+    vc.contentSizeForViewInPopover = CGSizeMake(200, 300);
     _uipopover = [[UIPopoverController alloc] initWithContentViewController:vc];
     _uipopover.delegate = self;
     
-    [_uipopover presentPopoverFromRect:CGRectMake(100, 100, 0, 0)
+    [_uipopover presentPopoverFromRect:CGRectMake(100, 100, 10, 10)
                                   inView:sender
                 permittedArrowDirections:UIPopoverArrowDirectionAny
                                 animated:YES];
@@ -40,7 +45,7 @@
 {
     UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     InfoViewController* vc = [storyboard instantiateViewControllerWithIdentifier:@"InfoVCID"];
-    vc.preferredContentSize = CGSizeMake(200, 300);
+    vc.contentSizeForViewInPopover = CGSizeMake(200, 300);
     _wypopover = [[WYPopoverController alloc] initWithContentViewController:vc];
     _wypopover.delegate = self;
     
@@ -48,8 +53,11 @@
                                   inView:sender
                 permittedArrowDirections:WYPopoverArrowDirectionAny
                                 animated:YES];
-    
-        
+}
+
+- (IBAction)closeButtonHandler:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)popoverControllerDidDismissPopover:(id)popoverController

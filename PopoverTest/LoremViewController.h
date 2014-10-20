@@ -8,5 +8,9 @@
 #import <UIKit/UIKit.h>
 
 @interface LoremViewController : UIViewController
+@property UIButton* button1;
+@property UIButton* button2;
+- (IBAction)button1Handler:(id)sender;
+- (IBAction)button2Handler:(id)sender;
 
 @end

@@ -28,6 +28,12 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    NSLog( @"%s:%d", __FUNCTION__, __LINE__ );
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
@@ -37,6 +43,12 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
+    NSLog( @"%s:%d", __FUNCTION__, __LINE__ );
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
     NSLog( @"%s:%d", __FUNCTION__, __LINE__ );
 }
 
